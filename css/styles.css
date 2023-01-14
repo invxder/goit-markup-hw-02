@@ -1,0 +1,23 @@
+/* index.hmtl */
+/* HERO */
+
+.hero-title {
+    color: var(--primary-white-color);
+}
+
+.btn.primary {
+    background-color: var(--accent-1);
+    color: var(--primary-white-color);
+}
+
+/* MAIN CONTENT*/
+
+.section-title {
+    color: var(--primary-text-color);
+}
+
+.section .text {
+    color: var(--secondary-text-color);
+}
+
+/* portfolio.css */

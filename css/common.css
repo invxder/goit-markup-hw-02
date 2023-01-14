@@ -1,0 +1,49 @@
+/* primary-text-color: #2E2F42; */
+/* secondary-text-color: #434455; */
+
+/* primary-background-color: #FFFFFF */
+/* secondary-background-color: #F4F4FD; */
+
+/* blue accent-1: #4D5AE5; */
+/* cornflower accent-2: #E7E9FC; */
+
+:root {
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --primary-white-color: #FFFFFF;
+    --secondary-bg-color: #F4F4FD;
+    --accent-1: #4D5AE5;
+    --accent-2: #E7E9FC;
+}
+
+.list {
+    list-style: none;
+}
+
+/* HEADER */
+
+.logo-web {
+    color: var(--accent-1);
+}
+
+.head-studio {
+    color: var(--primary-text-color);
+}
+
+.site-nav .link {
+    color: var(--primary-text-color);
+}
+
+.head-cont .link {
+    color: var(--secondary-text-color);
+}
+
+/* FOOTER */
+
+.footer-studio {
+    color: var(--secondary-bg-color);
+}
+
+.footer-text {
+    color: var(--accent-2);
+}
