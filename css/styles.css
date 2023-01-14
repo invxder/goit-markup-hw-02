@@ -1,23 +1,220 @@
+:root {
+    --primary-brand-color: #4D4AE5;
+    --dark-color: #2E2F42;
+    --success-color: #31D0AA;
+    --text-color: #434455;
+    --subtle-text: #8E8F99;
+    --white-color: #fff;
+    --accent-color: #E7E9FC;
+    --light-color: #F4F4FD;
+}
+
+body {
+    color: var(--primary-brand-color);
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    
+}
+
+.list {
+    list-style: none;
+}
+
+/* HEADER */
+
+.logo-web,
+.head-studio {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.head-studio {
+    color: var(--dark-color);
+}
+
+.logo-web {
+    color: var(--primary-brand-color);
+}
+
+.logo-studio {
+    color: var(--dark-color);
+}
+
+.studio,
+.portfolio,
+.contacts {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.head-mail,
+.head-tel {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.site-nav .link {
+    color: var(--dark-color);
+}
+
+.studio:hover,
+.studio:focus {
+    color: var(--primary-brand-color);
+}
+
+.portfolio:hover,
+.portfolio:focus {
+    color: var(--primary-brand-color);
+}
+
+.contacts:hover,
+.contacts:focus {
+    color: var(--primary-brand-color);
+}
+
+.head-content .link {
+    color: var(--text-color);
+}
+
+.head-mail:hover,
+.head-mail:focus,
+.head-tel:hover,
+.head-tel:focus {
+    color: var(--primary-brand-color);
+}
+
 /* index.hmtl */
 /* HERO */
 
 .hero-title {
-    color: var(--primary-white-color);
+    color: var(--white-color);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
 }
 
-.btn.primary {
-    background-color: var(--accent-1);
-    color: var(--primary-white-color);
+.btn {
+    cursor: pointer;
+}
+
+.btn-hero {
+    background-color: var(--primary-brand-color);
+    color: var(--white-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
 
 /* MAIN CONTENT*/
 
 .section-title {
-    color: var(--primary-text-color);
+    color: var(--dark-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
 }
 
-.section .text {
-    color: var(--secondary-text-color);
+/* Description of studio, Our Team */
+
+.desc-title,
+.team-title {
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
 }
+
+.desc-text,
+.team-text {
+    color: var(--dark-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.prt-title {
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.prt-text {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
 
 /* portfolio.css */
+/* MAIN CONTENT */
+
+.btn-filters {
+    background-color: var(--light-color);
+    color: var(--primary-brand-color);
+}
+
+.btn-filters:hover,
+.btn-filters:focus {
+    background-color: var(--primary-brand-color);
+    color: var(--white-color);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOTER */
+
+.footer-studio {
+    color: var(--light-color);
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.footer-text {
+    color: var(--accent-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
