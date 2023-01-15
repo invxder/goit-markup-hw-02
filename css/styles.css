@@ -1,5 +1,6 @@
 :root {
     --primary-brand-color: #4D4AE5;
+    --secondary-brand-color: #404BBF;
     --dark-color: #2E2F42;
     --success-color: #31D0AA;
     --text-color: #434455;
@@ -11,7 +12,7 @@
 
 body {
     color: var(--primary-brand-color);
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -19,16 +20,19 @@ body {
     list-style: none;
 }
 
+.link {
+    text-decoration: none;
+}
+
 /* HEADER */
 
 .logo-web,
 .head-studio {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
-    text-decoration: none;
+    line-height: 1.33px;
+    letter-spacing: 0.03em;
 }
 
 .head-studio {
@@ -48,16 +52,16 @@ body {
 .contacts {
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    text-decoration: none;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
 }
 
 .head-mail,
 .head-tel {
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
-    text-decoration: none;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link {
@@ -97,21 +101,34 @@ body {
     color: var(--white-color);
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07px;
+    letter-spacing: 0.02em;
 }
 
 .btn {
     cursor: pointer;
+    border: none;
 }
 
 .btn-hero {
     background-color: var(--primary-brand-color);
     color: var(--white-color);
     font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5px;
+    letter-spacing: 0.04em;
+}
+
+.btn-hero:hover,
+.btn-hero:focus {
+    background-color: var(--secondary-brand-color);
+    color: var(--white-color);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.04em;
 }
 
 /* MAIN CONTENT*/
@@ -120,7 +137,8 @@ body {
     color: var(--dark-color);
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11px;
+    letter-spacing: 0.02em;
 }
 
 /* Description of studio, Our Team */
@@ -130,7 +148,8 @@ body {
     color: var(--dark-color);
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 1.2px;
+    letter-spacing: 0.02em;
 }
 
 .desc-text,
@@ -138,38 +157,39 @@ body {
     color: var(--dark-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
 }
-
-.prt-title {
-    color: var(--dark-color);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-}
-
-.prt-text {
-    color: var(--text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-}
-
-
-
-
-
-
-
 
 
 
 /* portfolio.css */
 /* MAIN CONTENT */
 
+.prt-title {
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2px;
+    letter-spacing: 0.02em;
+}
+
+.prt-text {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
+}
+
 .btn-filters {
     background-color: var(--light-color);
     color: var(--primary-brand-color);
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5px;
+    letter-spacing: 0.04em;
 }
 
 .btn-filters:hover,
@@ -178,43 +198,21 @@ body {
     color: var(--white-color);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* FOOTER */
 
 .footer-studio {
     color: var(--light-color);
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
+    line-height: 1.16px;
+    letter-spacing: 0.03em;
 }
 
 .footer-text {
     color: var(--accent-color);
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5px;
+    letter-spacing: 0.02em;
 }
