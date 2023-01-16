@@ -97,6 +97,10 @@ body {
 /* index.hmtl */
 /* HERO */
 
+.hero {
+    background-color: var(--dark-color);
+}
+
 .hero-title {
     color: var(--white-color);
     font-weight: 700;
@@ -139,6 +143,14 @@ body {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
+}
+
+.section.team {
+    background-color: var(--light-color);
+}
+
+.list.team {
+    background-color: var(--white-color);
 }
 
 /* Description of studio, Our Team */
@@ -199,6 +211,10 @@ body {
 }
 
 /* FOOTER */
+
+.footer {
+    background-color: var(--dark-color);
+}
 
 .footer-studio {
     color: var(--light-color);
