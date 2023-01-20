@@ -35,6 +35,10 @@ body {
     letter-spacing: 0.03em;
 }
 
+.head-content .link {
+    color: var(--text-color);
+}
+
 .head-studio,
 .site-nav .link {
     color: var(--dark-color);
@@ -66,11 +70,6 @@ body {
 .relations:hover,
 .relations:focus {
     color: var(--primary-brand-color);
-}
-
-
-.head-content .link {
-    color: var(--text-color);
 }
 
 /* index.hmtl */
