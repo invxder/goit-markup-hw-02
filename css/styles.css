@@ -33,10 +33,10 @@ body {
 
 .header {
     background-color: var(--white-color);
+    border-bottom: 1px solid var(--accent-color);
 }
 
 .container {
-    
     margin-left: auto;
     margin-right: auto;
     width: 1158px;
@@ -211,20 +211,10 @@ body {
 /* portfolio.css */
 /* MAIN CONTENT */
 
-.prt-title {
-    color: var(--dark-color);
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-}
-
-.prt-text {
-    color: var(--text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
+.section-title.prt {
+    padding: 0;
+    margin: 0;
+    margin-top: 96px;
 }
 
 .btn-filters {
@@ -235,12 +225,43 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+
+    border-radius: 4px;
+    min-height: 48px;
+    padding: 12px 24px;
 }
 
 .btn-filters:hover,
 .btn-filters:focus {
     background-color: var(--primary-brand-color);
     color: var(--white-color);
+}
+
+.btn-prt {
+    padding: 0;
+    margin: 0;
+    margin-bottom: 72px;
+}
+
+.prt-title {
+    color: var(--dark-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.prt-text {
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+
+    padding-bottom: 32px;
 }
 
 /* FOOTER */
