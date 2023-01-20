@@ -35,7 +35,8 @@ body {
     letter-spacing: 0.03em;
 }
 
-.head-studio {
+.head-studio,
+.site-nav .link {
     color: var(--dark-color);
 }
 
@@ -43,55 +44,33 @@ body {
     color: var(--primary-brand-color);
 }
 
-.logo-studio {
-    color: var(--dark-color);
-}
-
-.studio,
-.portfolio,
-.contacts {
+.anchors {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.head-mail,
-.head-tel {
+.relations {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.site-nav .link {
-    color: var(--dark-color);
-}
-
-.studio:hover,
-.studio:focus {
+.anchors:hover,
+.anchors:focus {
     color: var(--primary-brand-color);
 }
 
-.portfolio:hover,
-.portfolio:focus {
+.relations:hover,
+.relations:focus {
     color: var(--primary-brand-color);
 }
 
-.contacts:hover,
-.contacts:focus {
-    color: var(--primary-brand-color);
-}
 
 .head-content .link {
     color: var(--text-color);
-}
-
-.head-mail:hover,
-.head-mail:focus,
-.head-tel:hover,
-.head-tel:focus {
-    color: var(--primary-brand-color);
 }
 
 /* index.hmtl */
