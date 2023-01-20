@@ -10,14 +10,19 @@
     --light-color: #F4F4FD;
 }
 
+
+
 body {
     color: var(--primary-brand-color);
     font-family: 'Roboto', sans-serif;
-    
+    margin: 0;
+    padding: 0;    
 }
 
 .list {
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .link {
@@ -25,6 +30,18 @@ body {
 }
 
 /* HEADER */
+
+.header {
+    background-color: var(--white-color);
+}
+
+.container {
+    
+    margin-left: auto;
+    margin-right: auto;
+    width: 1158px;
+    text-align: center;
+}
 
 .logo-web,
 .head-studio {
@@ -77,6 +94,10 @@ body {
 
 .hero {
     background-color: var(--dark-color);
+    padding-top: 188px;
+    padding-bottom: 188px;
+    margin-bottom: 120px;
+    text-align: center;
 }
 
 .hero-title {
@@ -85,6 +106,9 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
+
+    margin-bottom: 48px;
 }
 
 .btn {
@@ -93,6 +117,10 @@ body {
 }
 
 .btn-hero {
+    border-radius: 4px;
+    min-width: 169px;
+    min-height: 56px;
+
     background-color: var(--primary-brand-color);
     color: var(--white-color);
     font-family: 'Roboto';
@@ -115,23 +143,25 @@ body {
 
 /* MAIN CONTENT*/
 
+
+.section.container {
+    padding-bottom: 120px;
+
+}
+
 .section-title {
     color: var(--dark-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
-}
-
-.section.team {
-    background-color: var(--light-color);
+    padding-bottom: 72px;
+    margin: 0;
 }
 
 .list.team {
     background-color: var(--white-color);
 }
-
-/* Description of studio, Our Team */
 
 .desc-title,
 .team-title {
@@ -140,6 +170,8 @@ body {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    padding-bottom: 8px;
+    margin: 0;
 }
 
 .desc-text,
@@ -149,7 +181,30 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 0;
+    margin: 0;
 }
+
+/* Contacts / Main team of studio */
+
+.container .section-title.team {
+    padding-top: 120px;
+}
+
+.section-team {
+    background-color: var(--light-color);
+    padding-bottom: 120px;
+}
+
+.team-title {
+    margin-top: 32px;
+    margin-bottom: 8px;
+}
+
+.team-text {
+    padding-bottom: 32px;
+}
+
 
 
 
@@ -209,4 +264,9 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+
+.footer .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
